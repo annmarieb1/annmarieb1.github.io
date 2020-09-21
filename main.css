@@ -1,10 +1,11 @@
-/* style.css for annmarieb1.github.io */
+/* main.css for annmarieb1.github.io */
 
 h1 {
 	color: white;
 	size: 100px;
 	text-shadow: 2px 2px 3px #222222;
 }
+
 .header {
 	width: 50%;
     margin-left: auto;
@@ -15,12 +16,24 @@ h1 {
 	border: 2px solid #ffffff;
 	padding: 25px 25px 25px 25px;
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
 body {
 	background-color: #f8a2bb;
 }
+
 a {
 	color: #ffffff;
 }
+
 a:hover {
 	color: #dddddd;
 }
