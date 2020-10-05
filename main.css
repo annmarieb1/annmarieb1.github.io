@@ -1,39 +1,81 @@
 /* main.css for annmarieb1.github.io */
 
 h1 {
-	color: white;
-	size: 100px;
+    color: white;
+    size: 50%;
+    font-weight: bold;
 	text-shadow: 2px 2px 3px #222222;
 }
 
-.header {
-	width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: #83aaff;
-  	border-radius: 20px;
-	border: 2px solid #ffffff;
-	padding: 25px 25px 25px 25px;
+body {
+    margin: 0 px;
 }
 
-.footer {
+#header {
+    width: 100%;
+	/*background-color: #85e9ff;*/
+    padding: 3px;
+    font-family: "Arial", "Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    /*border-radius: 20px;
+    border: 2px solid #ffffff;*/
+}
+
+#title {
+    text-align: center;
+    background-color: #85daff;
+    /*background-color: #6666ff;*/
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    /* display: inline-block; */
+    /* background-color: #aae6ff; rgba(170, 230, 255, 1);  */
+  	/* border-radius: 20px; */
+	/* border: 2px solid #ffffff; */
+    /* padding: 1px; */
+}
+
+#nav {
+    /*position: sticky;*/
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    /* right: 2%;
+    top: 0%; */
+    font-size: 16px;
+    /* display: inline-block; */
+    /* border-radius: 20px;
+	border: 2px solid #000; */
+}
+
+#content {
+    font-family: "Georgia", "Garamond", "Bookman";
+    font-size: 16px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+#footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    padding: 5px;
     color: #ffffff;
+    background-color: #63b8dd;
     text-align: center;
     font-size: 12px;
 }
 
-body {
-	background-color: #f8a2bb;
+#nav a {
+	color: #4455cc;
 }
 
-a {
-	color: #ffffff;
+#nav a:hover {
+	color: #9070ad;
 }
 
-a:hover {
-	color: #dddddd;
+#nav a:visited {
+    color: #412615;
 }
